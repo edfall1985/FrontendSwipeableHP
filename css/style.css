@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000;
+}
+.swiper-slide img, .swiper-slide video {
+  width: 100%;
+  aspect-ratio: 9/16;
+  object-fit: cover;
+  background: #111;
+}
+.info {
+  padding: 16px;
+  width: 100%;
+}
+.info h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.info p {
+  font-size: 1rem;
+  color: #aaa;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  padding: 0 16px 16px;
+}
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
