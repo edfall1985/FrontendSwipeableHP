@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const gallery = document.getElementById("gallery");
-  const API_URL = "https://swipe-api.digtri.com/api/gallery";
+  const API_URL = "https://api.digtri.com/api/gallery";
 
   try {
     const res = await fetch(API_URL);
